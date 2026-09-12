@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+benchmark-output/
+input.png
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+.env
