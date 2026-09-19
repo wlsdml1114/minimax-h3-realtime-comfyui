@@ -1,5 +1,7 @@
 # MiniMax H3 실시간 생성 재현 템플릿
 
+> 이 템플릿의 최신 버전은 [OMG Runpod Media의 MiniMax H3 레시피](https://github.com/wlsdml1114/omg-runpod-media/tree/main/recipes/video/01-minimax-h3-realtime)에서 관리합니다. 이 저장소는 기존 링크와 단독 사용자를 위해 남겨 둡니다.
+
 RTX PRO 6000 한 장에서 MiniMax H3의 5초 영상을 **저장 완료까지 얼마나 빨리 끝낼 수 있는지** 확인할 수 있는 ComfyUI 템플릿입니다.
 
 기본 설정은 608×352, 124프레임, 24 FPS, 4-step FL2VA입니다. ComfyUI 기본 `SaveVideo` 대신 함께 제공하는 `H3NVENCSaveVideo` 노드를 사용해 NVIDIA의 H.264 하드웨어 인코더로 결과를 저장합니다.
